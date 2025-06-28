@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="LiquidWing — Coming Real Soon" />
         <p className="description">
-          Get started by editing the team
+          Get started by contacting the team - once i setup the emails
         </p>
       </main>
 
