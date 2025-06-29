@@ -81,7 +81,7 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <Image src="/logo-icon.png" alt="LiquidWing Logo" width={180} height={180} className={styles.logo} />
+        <Image src="/logo.png" alt="LiquidWing Logo" width={180} height={180} className={styles.logo} />
         <nav className={styles.nav}>
           <button onClick={() => setActiveTab('opportunity')}>A World of Opportunity</button>
           <button onClick={() => setActiveTab('approach')}>The LiquidWing Approach</button>
