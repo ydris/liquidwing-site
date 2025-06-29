@@ -74,10 +74,14 @@ export default function Home() {
       <Head>
         <title>LiquidWing AI</title>
         <meta name="description" content="LiquidWing AI - Rebuilding business for the age of intelligent agents." />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
       </Head>
 
       <header className={styles.header}>
-        <Image src="/logo.png" alt="LiquidWing Logo" width={540} height={180} className={styles.logo} />
+        <Image src="/logo-icon.png" alt="LiquidWing Logo" width={180} height={180} className={styles.logo} />
         <nav className={styles.nav}>
           <button onClick={() => setActiveTab('opportunity')}>A World of Opportunity</button>
           <button onClick={() => setActiveTab('approach')}>The LiquidWing Approach</button>
