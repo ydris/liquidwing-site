@@ -55,15 +55,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem 1rem;
+  padding-top: 0.5rem;   /* Reduced from 2rem */
+  padding-bottom: 0.5rem;
+  margin-top: -1rem;     /* Pull header upward slightly */
 }
 
 .logo {
   height: auto;
   max-height: 200px;
   object-fit: contain;
-  margin-bottom: 1rem;
+  margin-top: -1rem;     /* Trim top white space inside logo */
+  margin-bottom: -0.5rem;/* Tighter gap before nav */
 }
+
 
 .nav {
   display: flex;
