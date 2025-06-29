@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>LiquidWing — Coming Real Soon</title>
+        <title>LiquidWing — Coming where AI Meets velocity</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="LiquidWing — Coming Real Soon" />
+        <Header title="LiquidWing — The second header" />
         <p className="description">
           Get started by contacting the team - once i setup the emails
         </p>
